@@ -60,6 +60,22 @@ p {
 
 /******* WORDS SECTION ********/
 
+.gender {
+  width: 42em;
+  padding: 4em;
+  text-align: center;
+}
+
+.male, .female {
+  font-size: 1.4em;
+}
+
+.female {
+  padding-left: 2em;
+}
+
+/******* WORDS SECTION ********/
+
 .words {
   width: 42em;
   padding: 4em;
@@ -98,4 +114,6 @@ input:focus {
 }
 
 
-
+#femaleText, #maleText, .words {
+  display:none;
+}
