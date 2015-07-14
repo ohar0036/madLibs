@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background: #E9E9E9;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+section {
+  margin: 0 auto;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+  background: #fff;
+}
+
+form {
+  margin: 0 auto;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+  background: #fff;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em; 
+}
+
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.35em;
+  margin: 0 0 1em 0;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  line-height: 1.5em;
+}
+.clear {
+  clear: both;
+}
+
+/******* TITLE SECTION ********/
+
+.title {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em; 
+  width: 50em;
+  margin-top: 3em;
+  border-top: 2px solid #000;
+
+}
+
+.smiley {
+  width: 12.5em;
+  float: left;
+  border-right: 2px solid #000;
+}
+
+.smiley img{
+  width: 10em;
+  padding: 1em;
+}
+
+.logo {
+  width: 33em;
+  float: left;
+  padding: 3.5em 0 0 4em;
+}
+
+/******* GENDER SECTION ********/
+
+.gender {
+  width: 42em;
+  padding: 4em;
+  text-align: center;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em; 
+}
+
+.center {
+  text-align: center;
+}
+
+.male, .female {
+  font-size: 1.4em;
+}
+
+.female {
+  padding-left: 2em;
+}
+
+/******* WORDS SECTION ********/
+
+
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+.wi {
+  width: 95%;
+}
+
+.words {
+  width: 42em;
+  padding: 4em;
+}
+
+
+input {
+    border: 3px solid #000; 
+    border-radius: 0.5em;
+    padding: 0.75em;
+    font-size: 1em;
+}
+
+input:focus {
+  border: 3px solid #B80000;
+  outline: none;
+}
+
+.error {
+  color: #a94442;
+  background-color: #f2dede;
+  font-size: 0.85em;
+  margin: 1px;
+}
+
+/******* STORY SECTION ********/
+
+.story {
+  width: 38em;
+  padding: 4em 6em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  margin-bottom: 3em; 
+}
+
+.bold {
+  font-weight: bold;
+  color: red;
+}
+
+
+/*
+#femaleText, #maleText, .words {
+  display:none;
+}
+*/
